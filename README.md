@@ -1,5 +1,3 @@
-# Dynamic-traffic-control-using-RL
-
 # Dynamic Traffic Control Using Reinforcement Learning
 
 ## 📋 Project Overview
