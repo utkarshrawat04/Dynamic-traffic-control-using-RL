@@ -343,36 +343,4 @@ best_algo, results, models = compare_all_algorithms_with_baseline(
 4. **Pedestrian integration** in reward function
 5. **Emergency vehicle priority** handling
 
-## 🐛 Troubleshooting
 
-### Common Issues
-
-1. **SUMO Connection Errors**
-   - Check `SUMO_HOME` environment variable
-   - Verify SUMO installation
-   - Ensure no other SUMO instances running
-
-2. **Memory Issues**
-   - Reduce batch size in agent configuration
-   - Decrease number of training steps
-   - Use smaller map areas
-
-3. **Training Instability**
-   - Adjust learning rates
-   - Increase replay buffer size
-   - Tune exploration parameters
-
-## 📚 References
-
-1. [SUMO Documentation](https://sumo.dlr.de/docs/)
-2. [OpenStreetMap](https://www.openstreetmap.org)
-3. [PyTorch RL Tutorials](https://pytorch.org/tutorials/intermediate/reinforcement_q_learning.html)
-4. [SUMO RL Examples](https://github.com/SUMO-Project/sumo-rl)
-
-## 📄 License
-
-This project is for educational purposes as part of B.Tech AI curriculum.
-
----
-
-**💡 Pro Tip**: Start with A2C for balanced performance, then experiment with PPO for more complex scenarios. Use SARSA as a simple baseline for comparison.
