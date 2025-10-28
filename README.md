@@ -271,7 +271,7 @@ traffic-rl-project/
 ├── map.rou.xml           # Vehicle routes
 ├── map.poly.xml          # Additional polygons
 ├── map.sumo.cfg          # Simulation configuration
-└── traffic_rl.py         # Main code file
+└── Trafic_Simulation.py         # Main code file
 ```
 
 ## 🔧 Software Requirements
